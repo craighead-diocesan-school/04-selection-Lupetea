@@ -3,9 +3,15 @@
 // ####################################
 
 function drivingAge() {
-  let age = 18
 
-  if (age > 16) {
+alert('How old are you?')
+let answer=prompt()
+
+  if (answer >= 16) 
     alert("You're old enough to drive.")
+  
+  else  {
+    alert('You are not old enough to drive.')
   }
+
 }
