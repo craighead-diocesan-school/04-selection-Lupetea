@@ -9,22 +9,21 @@ function conversation() {
   let answer = prompt()
 
   if (answer == 'yes')
-  alert('Woahh, Awesome!')
+  alert('Woahh, Awesome!Does that mean you like Science?')
+  let science=prompt()
 
-  else{ (answer == 'no')
-  alert('It can be quite tricky.')
-  }
+  if (answer== 'no')
+alert('It can be tricky!Does that mean you like English better? yes or no')
+let english= prompt()
 
-alert ('Do you like English?')
-let english= prompt ()
 
-if (english== 'yes')
+if (science+english== 'yes')
 alert("That's good for you!")
 
-else{
-(english == 'no')
-alert('That is understandable.')
-}
+else
+{(english+science == 'no')
+alert('That is understandable.')}
+
 
   alert('Goodbye')
 }
